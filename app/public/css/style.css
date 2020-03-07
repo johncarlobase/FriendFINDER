@@ -1,12 +1,16 @@
 .jumbotron {
-    color: #BE5A38;
+    color: #efdd8d;
     background: #92140c;
 }
 
 strong {
-    color: rgb(95, 63, 109);
+    color: #efdd8d;
 }
 
 h1, h4 {
     font-weight: 900;
+}
+
+body {
+    background-color: #283D3B;
 }
