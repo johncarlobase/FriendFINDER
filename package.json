@@ -1,0 +1,26 @@
+{
+  "name": "friend_finder",
+  "version": "1.0.0",
+  "description": "An Express web application that collects survey answers and uses them to compare and match users based on compatibility.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kat3ng/friend_finder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kat3ng/friend_finder/issues"
+  },
+  "homepage": "https://github.com/kat3ng/friend_finder#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.7",
+    "path": "^0.12.7"
+  }
+}

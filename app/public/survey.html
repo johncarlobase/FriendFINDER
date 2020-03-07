@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Friend Finder App</title>
+
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src='https://code.jquery.com/jquery-3.3.1.min.js' integrity='sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8='
+        crossorigin='anonymous'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <form action="">
+            <h1><strong>Friend FINDER Survey</strong></h1>
+            <hr>
+            <h3>
+                <strong>Tell Us About You</strong>
+            </h3>
+            <h4>Name (Required)</h4>
+            <input type="text" id="name" class="form-control" required>
+
+            <h4>Link to Photo Image (Required)</h4>
+            <input type="text" id="photo" class="form-control" required="">
+            <br>
+            <h3><strong>Instructions:</strong></h3>
+            <h4>Rate how much or how little you agree with the following statements using the dropdown scale! Be
+                careful! You could end up spending eternity with Derek!</h4>
+
+            <hr>
+            <h4><strong>Statement 1</strong></h4>
+            <h4>Generally speaking, I'd rather pursue a new skill than be content of what I know now.</h4>
+            <select class="chosen-select" id="q1" required>
+                <option value="">Select Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <br>
+            <br>
+            <h4><strong>Statement 2</strong>
+                </h3</h4> <h4>Emotional Quotient is important in a Relationship</h4>
+            <select class="chosen-select" id="q2" required>
+                <option value="">Select Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <br>
+            <br>
+            <h4><strong>Statement 3</strong>
+                </h3</h4> <h4>I believe that High Carbs and Sugar is making the world sicker everyday</h4>
+            <select class="chosen-select" id="q3" required>
+                <option value="">Select Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <br>
+            <br>
+            <h4><strong>Statement 4</strong>
+            </h4>
+            <h4>I think quality of calories is more important than counting them</h4>
+            <select class="chosen-select" id="q4" required>
+                <option value="">Select Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <br>
+            <br>
+            <h4><strong>Statement 5</strong>
+            </h4>
+            <h4>I tend to expect people around me to put in as much effort as I am in doing tasks</h4>
+            <select class="chosen-select" id="q5" required>
+                <option value="">Select Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <br>
+            <br>
+            <h4><strong>Statement 6</strong>
+            </h4>
+            <h4>I make the best effort to control my emotions,  think first before I react.</h4>
+            <select class="chosen-select" id="q6" required>
+                <option value="">Select Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <br>
+            <br>
+            <h4><strong>Statement 7</strong>
+            </h4>
+            <h4>It is important to listen and learn from people than assert my true personality in the first few encounters</h4>
+            <select class="chosen-select" id="q7" required>
+                <option value="">Select Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <br>
+            <br>
+            <h4><strong>Statement 8</strong>
+            </h4>
+            <h4>I always believe that you can achieve many things, although not all,  if you just FOCUS</h4>
+            <select class="chosen-select" id="q8" required>
+                <option value="">Select Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <br>
+            <br>
+            <h4><strong>Statement 9</strong>
+            </h4>
+            <h4>I often get attracted to multi talented and witty people</h4>
+            <select class="chosen-select" id="q9" required>
+                <option value="">Select Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <br>
+            <br>
+            <h4><strong>Statement 10</strong>
+            </h4>
+            <h4>True Happiness starts by making a decision to just be happy</h4>
+            <select class="chosen-select" id="q10" required>
+                <option value="">Select Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <hr>
+
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-warning btn-lg " id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>
+                Submit</button>
+        </form>
+        <hr>
+
+        <footer>
+            <div class="container">
+                <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/afhaque/friendfinder">GitHub
+                        Repo</a></p>
+            </div>
+        </footer>
+    </div>
+    <div id="results-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                    <h2 class="modal-title"><strong>Best Match</strong></h2>
+                </div>
+                <div class="modal-body">
+                    <h2 id="match-name"></h2>
+                    <img id="match-img" style="max-width:500px;max-height:500px;" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg"
+                        alt="">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/kat3ng/friend_finder">GitHub
+                        Repo</a></p>
+            </div>
+        </footer>
+    </div>
+    <script type="text/javascript" src="survey.js"></script>
+</body>
+
+</html>
