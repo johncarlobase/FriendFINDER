@@ -1,10 +1,6 @@
 # FriendFINDER# Friend Finder
----
-- **For:** Northwestern Coding Bootcamp
-- **Developer:** Kat Eng
-- **Deployment Date** 12/06/2018
-- **Built With** CSS, Node.js, Javascript, JQuery, Node.js, Express
-- **Demo** Watch a full demo [here!](https://youtu.be/QHPTjvWWI-k)
+
+A compatibility-based "FriendFinder" application. This full-stack site will take in results from users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match!
 
 
 ___
@@ -16,7 +12,7 @@ A "Good Place" themed Express web application that collects information from the
 
 ![image of survey](app/public/images/quiz-screen.png)
 
-![image of - it's a match!](app/public/images/soul-mate.png)
+![image of - it's a match!](app/public/images/soulmate.jpeg)
 
 **Before you get started, make sure you have these node packages installed:**
 1. **Express:** A fast and minimalist web framework for node.
