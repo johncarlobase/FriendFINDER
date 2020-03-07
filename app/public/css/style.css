@@ -1,16 +1,27 @@
 .jumbotron {
-    color: #efdd8d;
-    background: #92140c;
+    color: #3c4354;
+    background: #3e78b3;
+    color: #192a51;
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
-strong {
-    color: #efdd8d;
+h5,strong {
+    color: #192a51;
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
 }
 
-h1, h4 {
-    font-weight: 900;
+h4 {
+    font-weight: 600;
+    font-style: oblique;
+    font-family: cursive;
+    color: #192a51;
+
 }
 
 body {
-    background-color: #283D3B;
+    background-color: #dccde8;
 }
