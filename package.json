@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/kat3ng/friend_finder#readme",
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.18.2",
     "nodemon": "^1.18.7",
     "path": "^0.12.7"
   }
